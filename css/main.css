@@ -6,14 +6,15 @@
 header{
     width: 100%;
     height: 600px;
-    background-image: url("/assets/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+    /*background-image: url("../assets/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");*/
+    background-image: url("../assets/logic_no_pressure_home_cover_image.png");
     background-size: cover;
     background-position: center;
 }
 
 .nav-con{
     float: left;
-    width: 100%;
+    width: 45%;
     padding-top: 10px;
 }
 
@@ -29,6 +30,8 @@ header{
 .logo{
     padding-left: 30px;
     padding-top: 10px; 
+    float: left;
+    margin-right: 20px;
 }
 
 /* .col-7{
@@ -78,10 +81,57 @@ header{
 
 
 .image{
-    width: 90%;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     background-color: lightgrey;
     background-size: cover;
-    background-position: center center;
+    background-position: center;
     margin: 0 auto ;
+    margin-top: 20px;
 }
+
+.Search{
+    padding-left: 30px;
+    padding-top: 10px; 
+    float: right;
+    
+}
+
+.Search input{
+    border-radius: 50px;
+    width: 300px;
+    height: 60px;
+    padding-left:20px ;
+}
+
+.image-round-1{
+    width: 450px;
+    height: 250px;
+    background-color: grey;
+    margin-top: -50px;
+    z-index: 2;
+    margin-left: 200px;
+    position: absolute;
+
+
+}
+.image-round{
+    margin-top: -50px;
+    width: 450px;
+    
+    height:350px;
+    background-color: #2b2b2b;
+    z-index: 1;
+}
+
+.image-round-text{
+    margin-left: 50px;
+
+}
+
+.image-1 {
+    color: white;
+}
+
+
+
