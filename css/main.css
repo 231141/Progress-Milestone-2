@@ -133,5 +133,12 @@ header{
     color: white;
 }
 
+.contactdetails {
+    margin-bottom: 30px;
+    height:65px;
+}
 
+.details{
+    float:left;
+}
 
