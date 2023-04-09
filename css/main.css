@@ -13,6 +13,7 @@ header{
     background-image: url("../assets/logic_no_pressure_home_cover_image.png");
     background-size: cover;
     background-position: center;
+    
 }
 
 
@@ -107,9 +108,7 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 
-.row{
-   margin-left: 70px;
-}
+
 /*
 
 .image-details{
@@ -342,9 +341,10 @@ nav{
 
 .section-head{
     color: white;
-    margin-left: 70px;
+    
     font-family: 'Open Sans', sans-serif;
 }
+
 nav{
     height: 100px;
     width:100%;
@@ -412,9 +412,7 @@ footer p{
     margin-right: 50px;
 }
 
-.container-fluid{
-    
-}
+
 
 footer{
     font-family: 'Poppins', sans-serif;
@@ -423,3 +421,9 @@ footer{
     height: 150px;
 }
 
+.container-fluid{
+   
+    
+   
+
+}
