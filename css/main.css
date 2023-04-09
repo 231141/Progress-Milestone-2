@@ -5,25 +5,27 @@
 
 header{
     width: 100%;
-    height: 600px;
+    height: 800px;
     /*background-image: url("../assets/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");*/
     background-image: url("../assets/logic_no_pressure_home_cover_image.png");
     background-size: cover;
     background-position: center;
 }
 
+
 .nav-con{
     float: left;
     width: 45%;
     padding-top: 10px;
+    
 }
 
 .nav-button{
     height: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     float: left;
-    padding-right: 50px;
+    padding-right: 25px;
     cursor: pointer;
 }
 
@@ -32,6 +34,12 @@ header{
     padding-top: 10px; 
     float: left;
     margin-right: 20px;
+    color: white;
+    
+}
+
+nav{
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* .col-7{
@@ -62,6 +70,16 @@ header{
     float: left;
 }
 
+.heart{
+    width: 225px;
+    height: 40px;
+   
+    
+    margin-right: 3%;
+    font-weight: bold;
+    margin-top: 30px;
+    float: left;
+}
 .normal{
     color: #2b2b2b;
 }
@@ -74,16 +92,145 @@ header{
 
 }
 
+
 .homeLocation{
     padding-top: 20%;
     padding-left: 15%;
+    margin-top: -100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
+.image-round-text{
+    font-family: 'Open Sans', sans-serif;
+}
 
-.image{
-    width: 300px;
-    height: 300px;
-    background-color: lightgrey;
+.image-details{
+    
+    height: 60px;
+    width:100%;
+   
+    background-color: #2b2b2b;
+    color: white;
+    opacity: 0;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+    
+
+}
+
+.albumdetails{
+    margin-left: 20px;
+    
+    
+}
+
+.favbutton{
+    
+    float:right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+.image-details:hover{
+    opacity: 50%;
+    padding-top: 5px !important;
+    cursor: pointer;
+
+} 
+
+.image1{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/man_on_the_moon_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image2{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/blame_it_on_baby_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image3{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/happy_thoughts_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image4{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/music_to_be_murdered_by_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image5{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/low_end_theory_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image6{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/wu_tang_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image7{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/to_pimp_a_butterfly_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image8{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/revenge_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image9{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/kod_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image10{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/no_pressure_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}.image11{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/circles_album_cover.png");
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto ;
+    margin-top: 20px;
+}
+.image12{
+    width: 250px;
+    height: 250px;
+    background-image: url("../assets/kanye_album_cover.png");
     background-size: cover;
     background-position: center;
     margin: 0 auto ;
@@ -136,9 +283,95 @@ header{
 .contactdetails {
     margin-bottom: 30px;
     height:65px;
+    
 }
 
 .details{
     float:left;
 }
 
+.col-6{
+    width:50%;
+}
+
+.section-head{
+    color: white;
+}
+nav{
+    height: 100px;
+    width:100%;
+}
+
+form{
+    width:80%;
+    height: 400px;
+    
+    margin-top: 175px;
+    background-color:rgb(23, 23, 36);
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+    color: white;
+    border: 150px;
+    border-color: black ;
+}
+.input-el {
+    width: 95%;
+    height: 35px;
+    margin-top: 10px;
+    padding-left: 15px;
+    border-radius: 20px;
+    border: 20px;
+    border-color: #2b2b2b;
+   
+    background-color: grey;
+    color: white;
+}
+
+.half{
+    width:80%;
+    height: 400px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.image-box{
+    width: 400px;
+    height:150px;
+    background-color: grey;
+}
+
+footer{
+    height: 100px;
+    color: white;
+}
+
+footer p{
+    height: 50px;
+    float: left;
+    margin-left:  50px;
+   
+}
+
+.socials{
+    height: 50px;
+    float:right;
+    margin-right: 50px;
+}
+
+.container-fluid{
+    background-color: rgb(48, 46, 46);
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 50px;
+}
