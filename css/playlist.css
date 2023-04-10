@@ -412,6 +412,50 @@ footer p{
     
 }
 
+.musicimage{
+    width: 470px;
+    height: 470px;
+    background-image: url("/assets/ruth\ b\ dandelion.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.col-1 p{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.col-1{
+    margin-top: 100px;
+}
+
+.col-3 p{
+   margin-top: 20px;
+    margin-left: 450px;
+   
+}
+.col-3{
+    margin-top: 100px;
+}
+
+.col-2{
+    margin-top: 100px;
+}
+
+.col-2 p{
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.time{
+    margin-left: 550px;
+    margin-top: -550px;
+}
+
+.time p{
+    
+}
 footer{
     font-family: 'Anuphan', sans-serif;
     margin-top: 50px;
