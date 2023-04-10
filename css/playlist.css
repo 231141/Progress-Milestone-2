@@ -410,6 +410,7 @@ footer p{
     float:right;
     margin-right: 50px;
     font-family: 'Anuphan', sans-serif;
+    color: white;
 }
 
 .musicimage{
@@ -464,13 +465,15 @@ footer p{
     margin-top: -480px;
 
 }
-.time p{
-    
-}
+
 footer{
     font-family: 'Anuphan', sans-serif;
     margin-top: 50px;
     width: 100%;
     height: 150px;
+}
+
+.row p{
+    color: white;
 }
 
